@@ -1,0 +1,10 @@
+.InstagramPortfolio {
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.InstagramPortfolio_mask-example {
+    color: red;
+}
