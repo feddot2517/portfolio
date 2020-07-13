@@ -1,0 +1,38 @@
+.Menu {
+    min-height: 70vh;
+    width: 100%;
+    background: #0071f5;
+    vertical-align: bottom;
+}
+
+.Menu__navigator {
+    min-width: 1000px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    min-height: 70px;
+    width: 95%;
+    margin: -85px auto auto auto;
+    background: blue;
+}
+
+.Menu__navigator-item {
+    user-select: none;
+    cursor: pointer;
+    transition: background-color 0.8s;
+    font-weight: bolder;
+    color: white;
+    font-size: 25pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    background: #5d95ec;
+}
+.Menu__navigator-item.selected {
+    background: #ff5778;
+}
+
+.Menu__navigator-item:hover {
+    background: darkgrey;
+}
